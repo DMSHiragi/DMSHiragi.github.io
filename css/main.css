@@ -5,7 +5,7 @@
  }
 
  header{
-    background: #15284f;
+    background: #141619;
  }
 
  header::after{
@@ -42,11 +42,12 @@ p{
 }
 
 footer{
-    background: #ffcccc;
+    background: #131f35;
     width: 100%;
     height: auto;
     text-align: center;
 }
+
 
 .container{
 	width: 90%;
@@ -62,6 +63,7 @@ footer{
 .video-container{
     padding-bottom: 4rem;
     padding-top: 3rem;
+    max-width: 100%;
 }
 
 
@@ -99,7 +101,7 @@ footer{
 
 .two_column_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 4rem;
 }
 
@@ -116,7 +118,7 @@ footer{
 
 .banner{
     padding: 2rem 0rem 3rem 0rem;
-    background-color: #315b96;
+    background-color: #212326;
 }
 
 
@@ -138,6 +140,12 @@ footer{
     text-align: center;
     color: white;
 }
+
+.footer_text p{
+    color: white;
+}
+
+
 
 .about_page{
     padding: 5rem;
@@ -175,6 +183,14 @@ footer{
     padding: 2rem 0 2rem 0;
 }
 
+a{
+    color:white;
+}
+
+a:active, a:hover, a:focus{
+    color: white;
+}
+
 a img{
     transition: opacity 0.3s;
 }
@@ -203,17 +219,18 @@ nav a{
     color: #315b96;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Archivo Black';
 }
 
 nav a:hover{
-    color: #ffcccc;
+    color: white;
 }
 
 nav a::before{
     content: '';
     display: block;
     height: 5px;
-    background-color: #ffcccc;
+    background-color: white;
     position: absolute;
     top: 0;
     width: 0%;

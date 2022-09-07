@@ -26,7 +26,7 @@ html {
 
 h1{
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: #131f35;
 }
 
@@ -63,7 +63,11 @@ footer{
 .video-container{
     padding-bottom: 4rem;
     padding-top: 3rem;
+    padding-left: 3.3rem;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 

@@ -58,12 +58,14 @@ footer{
 
 .project{
 	padding-bottom: 4rem;
+    padding-top: 1rem;
 }
 
 .video-container{
     padding-bottom: 4rem;
     padding-top: 3rem;
     padding-left: 3.3rem;
+    padding-right: 1rem;
     max-width: 100%;
     display: flex;
     justify-content: center;

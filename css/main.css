@@ -35,10 +35,14 @@ h2{
 	color: #131f35;
 }
 
-p{
+p, figcaption{
 	font-family: Kanit, sans-serif;
 	color: #131f35;
 	line-height: 1.75rem;
+}
+
+.project p{
+    padding-top: 1rem;
 }
 
 footer{
@@ -83,7 +87,7 @@ footer{
     width: 100%;
     max-width: 890px;
     margin: auto;
-    padding: 1rem 0rem 1.4rem 0rem;
+    padding-top: 1rem
 }
 
 .project-heading{
@@ -189,8 +193,20 @@ footer{
     padding: 2rem 0 2rem 0;
 }
 
+.project a{
+    font-family: Kanit, sans-serif;
+    color: #315b96;
+        padding-right: 1rem;
+}
+
+.project a:active, .project a:hover, .project a:focus{
+    color: #131f35;
+
+}
+
 a{
     color:white;
+    text-decoration-line: none;
 }
 
 a:active, a:hover, a:focus{
@@ -245,6 +261,10 @@ nav a::before{
 
 nav a:hover::before{
     width: 100%;
+}
+
+figure{
+    text-align: center;
 }
 
 
